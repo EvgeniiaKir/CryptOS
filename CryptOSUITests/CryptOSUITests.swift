@@ -2,7 +2,7 @@
 //  CryptOSUITests.swift
 //  CryptOSUITests
 //
-//  Created by Евгения Колдышева on 07.07.2022.
+//  Created by Evgeniia Kiriushina on 07.07.2022.
 //
 
 import XCTest

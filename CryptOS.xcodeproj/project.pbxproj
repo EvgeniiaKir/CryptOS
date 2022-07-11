@@ -14,6 +14,10 @@
 		54C524C7287729AB007C4CAB /* CryptOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C524C6287729AB007C4CAB /* CryptOSTests.swift */; };
 		54C524D1287729AB007C4CAB /* CryptOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C524D0287729AB007C4CAB /* CryptOSUITests.swift */; };
 		54C524D3287729AB007C4CAB /* CryptOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C524D2287729AB007C4CAB /* CryptOSUITestsLaunchTests.swift */; };
+		54C524E0287729FE007C4CAB /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C524DF287729FE007C4CAB /* Crypto.swift */; };
+		54C524E328772E7A007C4CAB /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C524E228772E7A007C4CAB /* ApiManager.swift */; };
+		54D066A02879D2C900228C96 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D0669F2879D2C900228C96 /* DetailsView.swift */; };
+		54D066A2287B4F1000228C96 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D066A1287B4F1000228C96 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		54C524CC287729AB007C4CAB /* CryptOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C524D0287729AB007C4CAB /* CryptOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptOSUITests.swift; sourceTree = "<group>"; };
 		54C524D2287729AB007C4CAB /* CryptOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54C524DF287729FE007C4CAB /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		54C524E228772E7A007C4CAB /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		54D0669F2879D2C900228C96 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		54D066A1287B4F1000228C96 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				54C524B5287729A8007C4CAB /* CryptOSApp.swift */,
-				54C524B7287729A8007C4CAB /* ContentView.swift */,
+				54C524E128772A07007C4CAB /* Model */,
+				54D066A3287C474A00228C96 /* View */,
+				54D066A4287C478F00228C96 /* Helper */,
 				54C524B9287729AB007C4CAB /* Assets.xcassets */,
 				54C524BB287729AB007C4CAB /* Preview Content */,
 			);
@@ -125,6 +135,32 @@
 				54C524D2287729AB007C4CAB /* CryptOSUITestsLaunchTests.swift */,
 			);
 			path = CryptOSUITests;
+			sourceTree = "<group>";
+		};
+		54C524E128772A07007C4CAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54C524DF287729FE007C4CAB /* Crypto.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54D066A3287C474A00228C96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54C524B7287729A8007C4CAB /* ContentView.swift */,
+				54D0669F2879D2C900228C96 /* DetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54D066A4287C478F00228C96 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				54C524E228772E7A007C4CAB /* ApiManager.swift */,
+				54D066A1287B4F1000228C96 /* Extensions.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C524E328772E7A007C4CAB /* ApiManager.swift in Sources */,
+				54D066A2287B4F1000228C96 /* Extensions.swift in Sources */,
+				54D066A02879D2C900228C96 /* DetailsView.swift in Sources */,
+				54C524E0287729FE007C4CAB /* Crypto.swift in Sources */,
 				54C524B8287729A8007C4CAB /* ContentView.swift in Sources */,
 				54C524B6287729A8007C4CAB /* CryptOSApp.swift in Sources */,
 			);

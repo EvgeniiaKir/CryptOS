@@ -2,7 +2,7 @@
 //  CryptOSApp.swift
 //  CryptOS
 //
-//  Created by Евгения Колдышева on 07.07.2022.
+//  Created by Evgeniia Kiriushina on 07.07.2022.
 //
 
 import SwiftUI
@@ -12,6 +12,7 @@ struct CryptOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.light)
         }
     }
 }
